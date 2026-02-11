@@ -1,0 +1,11 @@
+| Field                   | Description                                               |
+| ----------------------- | --------------------------------------------------------- |
+| `timestamp`             | Date/time of the charging measurement                     |
+| `scooter_id`            | Unique e-scooter identifier                               |
+| `battery_soc`           | Battery State of Charge (%)                               |
+| `charging_power_w`      | Power transferred via wireless charging (W)               |
+| `coil_alignment_mm`     | Distance offset between transmitter & receiver coils (mm) |
+| `power_loss_pct`        | Estimated power loss percentage                           |
+| `temp_c`                | Ambient temperature (°C)                                  |
+| `charging_status`       | Active / Idle / Completed                                 |
+| `energy_transferred_wh` | Total energy transferred during the interval (Wh)         |
